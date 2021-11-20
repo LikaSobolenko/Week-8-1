@@ -1,0 +1,48 @@
+.header {
+    background-color: #413D3D;
+}
+
+.nav {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: self-end;
+}
+
+.nav a {
+    color: white;
+}
+
+.welcome {
+    background-color: lightgray;
+    padding: 50px;
+    max-width: 1280px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 50px;
+    text-align: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer {
+    background-color: #413D3D;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
